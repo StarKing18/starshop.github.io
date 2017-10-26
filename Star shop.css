@@ -1,0 +1,35 @@
+body{
+	background-color: #e56424; 
+	background-image: url("background.jpg");
+}
+
+#produk{
+	text-align: justify;
+	text-indent: 30;
+}
+
+.menu{
+    display:inline-block;
+    /*height: 50px;
+    width: 100px;*/
+    text-decoration: none;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    
+    padding: 10px 5px;
+}
+
+.menu:link{
+    background: grey;
+    color: white;
+}
+
+.menu:hover{
+    background: yellow;
+}
+
+.menu:active{
+    background: red;
+}
